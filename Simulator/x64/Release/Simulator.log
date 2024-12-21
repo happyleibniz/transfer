@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\happyleibniz_\source\repos\Simulator\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\happyleibniz_\source\repos\Simulator\main.cpp(53,38): error C2065: 'basic_font': undeclared identifier
+C:\Users\happyleibniz_\source\repos\Simulator\main.cpp(53,9): error C2660: 'glBitmap': function does not take 6 arguments
+      C:\Users\happyleibniz_\source\repos\Simulator\include\GL\glew.h(854,23):
+      see declaration of 'glBitmap'
+      C:\Users\happyleibniz_\source\repos\Simulator\main.cpp(53,9):
+      while trying to match the argument list '(int, int, int, int, int, int)'
+  
+  stb_image_impl.cpp
